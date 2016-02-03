@@ -17,66 +17,70 @@ end
 if msg.text == "salam" then
 	return "Salam"
 end
-if msg.text == "TeleDark" then    
+if msg.text == "Telewild" then    
 	return "Best Bot In The World!"
 end
-if msg.text == "teledark" then
+if msg.text == "telewild" then
 	return "Best Bot In The World!"
 end
-if msg.text == "Teledark" then
+if msg.text == "Telewild" then
 	return "Best Bot In The World!"
 end
-if msg.text == "amir" then
-	return "Ha?"
+if msg.text == "ali" then
+	return "با بابای من چیکار داری"
 end
-if msg.text == "Amir" then
-	return "Koft Chikaresh Dari?"
+if msg.text == "Ali" then
+	return "با بابای من چیکار داری"
 end
-if msg.text == "amin" then
-	return "Rafte Lala :/"
+if msg.text == "ALI" then
+	return "با بابای من چیکار داری"
 end
-if msg.text == "Amin" then
-	return "Khabe :|"
+if msg.text == "بابات کجاس" then
+	return "به تو چه"
 end
-if msg.text == "mamshotak" then
-	return "Nagaiiidam!"
+if msg.text == "Ashrar" then
+	return "Nagaidam!"
 end
-if msg.text == "Mamshotak" then
-	return "Nagaiidam :|"
+if msg.text == "ashrar" then
+	return "Nagaidam :|"
 end
-if msg.text == "?" then
-	return "Chiye?"
+if msg.text == "Dark" then
+	return "همیشه بهترینه"
 end
 if msg.text == "Bye" then
-	return "Bye Dayus"
+	return "Bye"
 end
 if msg.text == "bye" then
 	return "Bye"
 end
-if msg.text == "سلام تله دارک" then
+if msg.text == "سلام تله ویلد"then
 	return "سلام عزیزم :)"
 end
-if msg.text == "ممشوتک" then
-	return "نگاییدم حاجی"
+if msg.text == "اشرار" then
+	return "نگاییدم"
 end
-if msg.text == "امین" then
-	return "رفته استخر :|"
+if msg.text == "علی" then
+	return "با بابای من چیکار داری"
 end
-if msg.text == "تله دارک" then
+if msg.text == "تله ویلد" then
 	return "جونم؟ بگو"
 end
-if msg.text == "ایلیا" then
-	return "با جیگرم چیکار داری؟"
+if msg.text == "ممد دارک" then
+	return "کون لقش"
 end
-if msg.text == "سپهر" then
-	return "رفته توالت وایسا بیاد"
+if msg.text == "ابول دارک" then
+	return "کون لقش"
 end
-if msg.text == "امیر" then
-	return "کدوم امیر؟"
+if msg.text == "امیر شر" then
+	return " کس ننش"
 end
-if msg.text == "امیر دارک" then
-	return "این آی دیشه @AmirDark"
+if msg.text == "عقری شر" then
+	return "کس ننش"
 end
+if msg.text =="علی دارک" then
+	return "@DARK_BOYS_ADMIN این آیدشه"
+end
+
 end
 
 return {
@@ -86,21 +90,21 @@ return {
     "^[Hh]i$",
 	"^[Hh]ello$",
     "^[Ss]alam$",
-    "^TeleDark$",
-    "^[Tt]eledark$",
-    "^[Aa]mir$",
-    "^[Aa]min$",
-    "^[Mm]amshotak$",
-    "^?$",
+    "^Telewild$",
+    "^[Tt]elewild$",
+    "^[Aa]li",
+    "^[Aa]shrar",
+    "^[Dd]ark$",
+    "^[Tt]elewild",
 	"^[Bb]ye$",
-	"^سلام تله دارک",
-	"^ممشوتک",	
-	"^امین",	
-	"^تله دارک",
-	"^ایلیا",
-	"^سپهر",
-	"^امیر",
-	"^امیر دارک",
+	"^ سلام تله ویلد",
+	"^اشرار",	
+	"^علی",	
+	"^تله ویلد",
+	"^ممد دارک",
+	"^ابول دارک",
+	"^امیر شر",
+	"^عقری شر",
 	
 		}, 
 	run = run,
