@@ -235,6 +235,7 @@ function create_config( )
     "nerkh",
     "help",
     "all",
+    "poshtibani",
     },
     sudo_users = {135693512,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
