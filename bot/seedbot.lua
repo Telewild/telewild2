@@ -236,7 +236,7 @@ function create_config( )
     "help",
     "all",
     },
-    sudo_users = {,0,tonumber(our_id)},--Sudo users
+    sudo_users = {135693512,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
